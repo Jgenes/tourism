@@ -1,0 +1,29 @@
+{
+  "name": "utalii",
+  "version": "1.0.0",
+  "description": "API FOR UTALII APP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jgenes/tourism.git"
+  },
+  "author": "Joseph Genes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jgenes/tourism/issues"
+  },
+  "homepage": "https://github.com/Jgenes/tourism#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}
