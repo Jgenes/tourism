@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const session = require('express-session');
 const partnerRoutes = require('./routes/auth/register')
 const uploadsRoutes = require('./routes/auth/uploads')
+const tourRoutes = require('./routes/tour/tour')
 const app = express()
 const Port = 3000
 
@@ -27,6 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/auth', partnerRoutes)
 app.use('/auth', uploadsRoutes)
+app.use('/tours', tourRoutes);
 
 app.listen(Port, ()=>{
     console.log("Utalii server started on port 3000");
