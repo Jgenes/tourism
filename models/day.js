@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const daySchema = new mongoose.Schema({
-    day: {
+    name: {
         type: String,
         required: true
     },
